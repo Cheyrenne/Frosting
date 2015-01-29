@@ -1,0 +1,157 @@
+/*@font-face {
+    font-family: ;
+    src: url(Gingersnaps.tff);
+}
+*** use this when font file is on a server */
+p, blockquote {
+    font-family: quicksand;
+}
+
+h1,h2,h3 {
+    font-family: quicksand;
+    color: #62c662;
+}
+
+header {
+    font-size: 70px;
+    text-align: center;
+    position: fixed;
+    top: 0; 
+    height: 100px;
+    width: 100%;
+    left: 0;
+    color: white;
+    background-color: rgba(255, 192, 203, 0.9);
+}
+
+#title {
+    position: relative;
+    font-family: frosting for breakfast;
+    text-shadow: 2px 2px 4px #000000;
+    top: -22px;
+}
+
+nav {
+    position: fixed;
+    display: table;
+    width: 100%;
+    background-color: rgba(234, 42, 77, 0.9);
+    top: 100px;
+}
+nav ul {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+.linkstyle  {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    width: 70px;
+    bottom: 0;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    background-color: rgba(234, 42, 77,0.5);
+    color: white;
+    text-align: center;
+}
+
+.submenu {
+    position: absolute;
+    top: 40px; /* height nav li */
+    width: 100%; /* of the major link */  
+    height: 35px;
+}
+
+.submenu li {
+    height: 100%;
+    background-color: #62c662;
+    font-size: 18px;
+    border-bottom: 1px solid #50a850; 
+}
+
+nav a:link {
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    color: #83db83;
+    font-weight: bold;
+    text-shadow: 1px 0px 10px #83db83;
+}
+
+nav li li a {
+    
+}
+nav li li a:hover {
+    color: grey;
+    font-size: 18px;
+}
+
+.bodytext {
+    position: relative;
+    max-width: 960px;
+    font-size: 20px;
+    margin: 160px auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-top: 1px;
+    box-shadow: 10px 10px 10px #f0f0f0;
+    border-bottom-right-radius: 5px;
+}
+
+#links {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    font-size: 16px;
+}
+
+#links a:link {
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-family: quicksand;   
+}
+
+#links a:visited {
+    color: white;
+}
+
+#links a:hover {
+    color: grey;
+}
+
+html, body {
+    position: relative;
+    margin: 0px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    left: 0;
+    background-color: #83db83;
+    border-top: 3px dotted rgb(235, 105, 128);
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul.submenu {
+    display: none;
+}
